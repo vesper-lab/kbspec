@@ -1,1 +1,4 @@
 site_name: KB Spec
+
+theme:
+  name: material
