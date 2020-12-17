@@ -1,4 +1,16 @@
 site_name: KB Spec
-
+repo_url: https://github.com/vesper-lab/kbspec
+site_description: Keyboard Specification documentation
+nav:
+  - Home: index.md
+  - Specification: specification.md
 theme:
   name: material
+  palette:
+    primary: deep purple
+    accent: deep purple
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
