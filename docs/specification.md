@@ -3,7 +3,7 @@
 ### Keyboard Objects
 
 ```ts
-class Keyboard {
+Keyboard {
   meta: KeyboardMetadata;
   keys: Key[];
 }
@@ -17,14 +17,11 @@ A `Keyboard` is an object containg keyboard metadata (`meta`) and an array of
 The `meta` object contains several fields:
 
 ```ts
-class KeyboardMetadata {
-  width: number;
-  height: number;
+KeyboardMetadata {
   switchType: string;
 }
 ```
 
-- `width` / `height` — the size of the keyboard, in keyboard units.
 - `switchType` — the _default_ type of switches on your keyboard.
     - Default can be overridden on individual keys.
     - Options are `cherry`, `alps`, and `choc`
@@ -34,8 +31,7 @@ class KeyboardMetadata {
 Each key in the `keys` array contains the following data:
 
 ```ts
-export class Key {
-  color: string;
+Key {
   labels: string[];
 
   x: number;
@@ -53,7 +49,6 @@ export class Key {
 }
 ```
 
-- `color` — the keycap color, e.g., `"#ff0000"` for red.
 - `labels` — an array of up to 12 text labels (sometimes referred to as
   'legends'):
     - In reading order, i.e., left-to-right, top-to-bottom:
