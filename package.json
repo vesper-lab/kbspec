@@ -1,6 +1,6 @@
 {
   "name": "kbspec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A framework for specifying mechanical keyboards.",
   "main": "index.js",
   "directories": {
