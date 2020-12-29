@@ -26,9 +26,8 @@ export class KBSpec {
   keys: KBSpecKey[] = [];
 }
 
-export function createKBSpecFromKLE(json: kle.Keyboard): KBSpec{
-	//let kleBoard: kle.Keyboard = kle.Serial.parse(json);
-	let kleBoard: kle.Keyboard = json;
+export function createKBSpecFromKLE(layoutString: string): KBSpec{
+	let kleBoard: kle.Keyboard = kle.Serial.parse(layoutString);
 	let retval: KBSpec = new KBSpec();
 
 	retval.meta.switchType = kleBoard.meta.switchMount;
