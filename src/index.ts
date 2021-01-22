@@ -26,7 +26,7 @@ export class KBSpec {
   keys: KBSpecKey[] = [];
 }
 
-function fixPrecisionv(val: number): number{
+function fixPrecision(val: number): number{
   return parseFloat(val.toPrecision(15))
 }
 
@@ -39,12 +39,12 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
   for (let kleKey of kleBoard.keys) {
     let key = new KBSpecKey();
     key.labels = [...kleKey.labels]
-    key.x = fixPrecisionv(kleKey.x);
-    key.y = fixPrecisionv(kleKey.y);
-    key.width = fixPrecisionv(kleKey.width);
-    key.rotation_x = fixPrecisionv(kleKey.rotation_x);
-    key.rotation_y = fixPrecisionv(kleKey.rotation_y);
-    key.rotation_angle = fixPrecisionv(kleKey.rotation_angle);
+    key.x = fixPrecision(kleKey.x);
+    key.y = fixPrecision(kleKey.y);
+    key.width = fixPrecision(kleKey.width);
+    key.rotation_x = fixPrecision(kleKey.rotation_x);
+    key.rotation_y = fixPrecision(kleKey.rotation_y);
+    key.rotation_angle = fixPrecision(kleKey.rotation_angle);
     key.profile = kleKey.profile;
     key.switchType = kleKey.sm;
 
