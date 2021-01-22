@@ -26,27 +26,30 @@ export class KBSpec {
   keys: KBSpecKey[] = [];
 }
 
+function fixPrecisionv(val: number): number{
+  return parseFloat(val.toPrecision(15))
+}
+
 export function createKBSpecFromKLE(layoutString: string): KBSpec{
-	let kleBoard: kle.Keyboard = kle.Serial.parse(layoutString);
-	let retval: KBSpec = new KBSpec();
+  let kleBoard: kle.Keyboard = kle.Serial.parse(layoutString);
+  let retval: KBSpec = new KBSpec();
 
-	retval.meta.switchType = kleBoard.meta.switchMount;
+  retval.meta.switchType = kleBoard.meta.switchMount;
 
-	for (let kleKey of kleBoard.keys) {
-		let key = new KBSpecKey();
-		key.labels = [...kleKey.labels]
-		key.x = kleKey.x;
-		key.y = kleKey.y;
-		key.width = kleKey.width;
-		key.rotation_x = kleKey.rotation_x;
-		key.rotation_y = kleKey.rotation_y;
-		key.rotation_angle = kleKey.rotation_angle;
-		key.profile = kleKey.profile;
-		key.profile = kleKey.profile;
-		key.switchType = kleKey.sm;
+  for (let kleKey of kleBoard.keys) {
+    let key = new KBSpecKey();
+    key.labels = [...kleKey.labels]
+    key.x = fixPrecisionv(kleKey.x);
+    key.y = fixPrecisionv(kleKey.y);
+    key.width = fixPrecisionv(kleKey.width);
+    key.rotation_x = fixPrecisionv(kleKey.rotation_x);
+    key.rotation_y = fixPrecisionv(kleKey.rotation_y);
+    key.rotation_angle = fixPrecisionv(kleKey.rotation_angle);
+    key.profile = kleKey.profile;
+    key.switchType = kleKey.sm;
 
-		retval.keys.push(key);
-	}
+    retval.keys.push(key);
+  }
 
-	return retval;
+  return retval;
 }
