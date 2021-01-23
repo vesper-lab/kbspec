@@ -1,6 +1,6 @@
 {
   "name": "kbspec",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A framework for specifying mechanical keyboards.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -8,7 +8,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "prepare": "tsc && jest",
+    "prepare": "tsc",
+    "prepublishOnly": "jest",
     "test": "jest",
     "build": "tsc",
     "convert_examples": "ts-node scripts/convert.ts"
