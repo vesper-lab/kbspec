@@ -11,6 +11,4 @@ test('basic conversion', () => {
     let kbspec_layout = createKBSpecFromKLE(kle_layout);
 
     expect(kbspec_layout.keys.length).toBe(104);
-
-    console.log(kbspec_layout.keys);
   });
