@@ -1,2 +1,1653 @@
 {
+  "meta": {
+    "switchType": ""
+  },
+  "keys": [
+    {
+      "labels": [
+        "Esc"
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F1"
+      ],
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F2"
+      ],
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F3"
+      ],
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F4"
+      ],
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F5"
+      ],
+      "x": 6.5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F6"
+      ],
+      "x": 7.5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F7"
+      ],
+      "x": 8.5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F8"
+      ],
+      "x": 9.5,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F9"
+      ],
+      "x": 11,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F10"
+      ],
+      "x": 12,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F11"
+      ],
+      "x": 13,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F12"
+      ],
+      "x": 14,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "PrtSc"
+      ],
+      "x": 15.25,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Scroll Lock"
+      ],
+      "x": 16.25,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Pause",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Break"
+      ],
+      "x": 17.25,
+      "y": 0,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "~",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "`"
+      ],
+      "x": 0,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "!",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "1"
+      ],
+      "x": 1,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "@",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "2"
+      ],
+      "x": 2,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "#",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "3"
+      ],
+      "x": 3,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "$",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "4"
+      ],
+      "x": 4,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "5"
+      ],
+      "x": 5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "^",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "6"
+      ],
+      "x": 6,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "&",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "7"
+      ],
+      "x": 7,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "*",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "8"
+      ],
+      "x": 8,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "(",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "9"
+      ],
+      "x": 9,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        ")",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "0"
+      ],
+      "x": 10,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "_",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "-"
+      ],
+      "x": 11,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "+",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "="
+      ],
+      "x": 12,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Backspace"
+      ],
+      "x": 13,
+      "y": 1.5,
+      "width": 2,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Insert"
+      ],
+      "x": 15.25,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Home"
+      ],
+      "x": 16.25,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "PgUp"
+      ],
+      "x": 17.25,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Num Lock"
+      ],
+      "x": 18.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "/"
+      ],
+      "x": 19.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "*"
+      ],
+      "x": 20.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "-"
+      ],
+      "x": 21.5,
+      "y": 1.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Tab"
+      ],
+      "x": 0,
+      "y": 2.5,
+      "width": 1.5,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Q"
+      ],
+      "x": 1.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "W"
+      ],
+      "x": 2.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "E"
+      ],
+      "x": 3.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "R"
+      ],
+      "x": 4.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "T"
+      ],
+      "x": 5.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Y"
+      ],
+      "x": 6.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "U"
+      ],
+      "x": 7.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "I"
+      ],
+      "x": 8.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "O"
+      ],
+      "x": 9.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "P"
+      ],
+      "x": 10.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "{",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "["
+      ],
+      "x": 11.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "}",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "]"
+      ],
+      "x": 12.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "|",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "\\"
+      ],
+      "x": 13.5,
+      "y": 2.5,
+      "width": 1.5,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Delete"
+      ],
+      "x": 15.25,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "End"
+      ],
+      "x": 16.25,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "PgDn"
+      ],
+      "x": 17.25,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "7",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Home"
+      ],
+      "x": 18.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "8",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "↑"
+      ],
+      "x": 19.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "9",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "PgUp"
+      ],
+      "x": 20.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "+"
+      ],
+      "x": 21.5,
+      "y": 2.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Caps Lock"
+      ],
+      "x": 0,
+      "y": 3.5,
+      "width": 1.75,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "A"
+      ],
+      "x": 1.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "S"
+      ],
+      "x": 2.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "D"
+      ],
+      "x": 3.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "F"
+      ],
+      "x": 4.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "G"
+      ],
+      "x": 5.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "H"
+      ],
+      "x": 6.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "J"
+      ],
+      "x": 7.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "K"
+      ],
+      "x": 8.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "L"
+      ],
+      "x": 9.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        ":",
+        null,
+        null,
+        null,
+        null,
+        null,
+        ";"
+      ],
+      "x": 10.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "\"",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "'"
+      ],
+      "x": 11.75,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Enter"
+      ],
+      "x": 12.75,
+      "y": 3.5,
+      "width": 2.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "4",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "←"
+      ],
+      "x": 18.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "5"
+      ],
+      "x": 19.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "6",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "→"
+      ],
+      "x": 20.5,
+      "y": 3.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Shift"
+      ],
+      "x": 0,
+      "y": 4.5,
+      "width": 2.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Z"
+      ],
+      "x": 2.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "X"
+      ],
+      "x": 3.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "C"
+      ],
+      "x": 4.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "V"
+      ],
+      "x": 5.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "B"
+      ],
+      "x": 6.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "N"
+      ],
+      "x": 7.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "M"
+      ],
+      "x": 8.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "<",
+        null,
+        null,
+        null,
+        null,
+        null,
+        ","
+      ],
+      "x": 9.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        ">",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "."
+      ],
+      "x": 10.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "?",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "/"
+      ],
+      "x": 11.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Shift"
+      ],
+      "x": 12.25,
+      "y": 4.5,
+      "width": 2.75,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "↑"
+      ],
+      "x": 16.25,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "1",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "End"
+      ],
+      "x": 18.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "2",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "↓"
+      ],
+      "x": 19.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "3",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "PgDn"
+      ],
+      "x": 20.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Enter"
+      ],
+      "x": 21.5,
+      "y": 4.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Ctrl"
+      ],
+      "x": 0,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Win"
+      ],
+      "x": 1.25,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Alt"
+      ],
+      "x": 2.5,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [],
+      "x": 3.75,
+      "y": 5.5,
+      "width": 6.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Alt"
+      ],
+      "x": 10,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Win"
+      ],
+      "x": 11.25,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Menu"
+      ],
+      "x": 12.5,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "Ctrl"
+      ],
+      "x": 13.75,
+      "y": 5.5,
+      "width": 1.25,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "←"
+      ],
+      "x": 15.25,
+      "y": 5.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "↓"
+      ],
+      "x": 16.25,
+      "y": 5.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "→"
+      ],
+      "x": 17.25,
+      "y": 5.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        "0",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Ins"
+      ],
+      "x": 18.5,
+      "y": 5.5,
+      "width": 2,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    },
+    {
+      "labels": [
+        ".",
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Del"
+      ],
+      "x": 20.5,
+      "y": 5.5,
+      "width": 1,
+      "height": 1,
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_angle": 0,
+      "profile": "",
+      "switchType": ""
+    }
+  ]
 }
