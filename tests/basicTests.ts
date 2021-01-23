@@ -8,9 +8,9 @@ test('adds 1 + 2 to equal 3', () => {
 
 test('basic conversion', () => {
     let kle_layout = loadExampleKLE("ANSI_104");
-    let kbdspec_layout = createKBSpecFromKLE(kle_layout);
+    let kbspec_layout = createKBSpecFromKLE(kle_layout);
 
-    expect(kbdspec_layout.keys.length).toBe(104);
+    expect(kbspec_layout.keys.length).toBe(104);
 
-    console.log(kbdspec_layout.keys);
+    console.log(kbspec_layout.keys);
   });
