@@ -17,5 +17,5 @@ test('flip height and width', () => {
     let kle_layout = loadExampleKLE("ErgoDox");
     let kbspec_layout = createKBSpecFromKLE(kle_layout);
 
-    expect(kbspec_layout.keys.length).toBe(104);
+    expect(kbspec_layout.keys.length).toBe(76);
   });
