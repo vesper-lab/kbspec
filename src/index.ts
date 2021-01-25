@@ -1,19 +1,16 @@
-import * as kle from "@ijprest/kle-serial";
+import * as kle from "./kleparser";
 
 export class KBSpecKey {
   labels: string[] = [];
 
-  x: number = 0;
-  y: number = 0;
   width: number = 1;
   height: number = 1;
 
-  rotation_x: number = 0;
-  rotation_y: number = 0;
+  x: number = 0;
+  y: number = 0;
   rotation_angle: number = 0;
 
   profile: string = "";
-
   switchType: string = "";
 }
 
@@ -31,7 +28,7 @@ function fixPrecision(val: number): number{
 }
 
 export function createKBSpecFromKLE(layoutString: string): KBSpec{
-  let kleBoard: kle.Keyboard = kle.Serial.parse(layoutString);
+  let kleBoard: kle.Keyboard = kle.parse(layoutString);
   let retval: KBSpec = new KBSpec();
 
   retval.meta.switchType = kleBoard.meta.switchMount;
@@ -39,12 +36,30 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
   for (let kleKey of kleBoard.keys) {
     let key = new KBSpecKey();
     key.labels = [...kleKey.labels]
-    key.x = fixPrecision(kleKey.x);
-    key.y = fixPrecision(kleKey.y);
-    key.width = fixPrecision(kleKey.width);
-    key.rotation_x = fixPrecision(kleKey.rotation_x);
-    key.rotation_y = fixPrecision(kleKey.rotation_y);
-    key.rotation_angle = fixPrecision(kleKey.rotation_angle);
+
+    let width = fixPrecision(kleKey.width);
+    let height = fixPrecision(kleKey.height);
+    
+    let rotation_x = fixPrecision(kleKey.rotation_x);
+    let rotation_y = fixPrecision(-kleKey.rotation_y);
+    let x_start = fixPrecision(kleKey.x);
+    let y_start = fixPrecision(-kleKey.y);
+    let rotation_angle = fixPrecision(-kleKey.rotation_angle);
+    let relative_rotation_angle = (rotation_angle) / 180 *  Math.PI;
+
+    let x_diff = x_start - rotation_x;// + width / 2;
+    let y_diff = y_start - rotation_y;// - height / 2;
+
+    let x_offset = x_diff * Math.cos(relative_rotation_angle) - y_diff * Math.sin(relative_rotation_angle);
+    let y_offset = x_diff * Math.sin(relative_rotation_angle) + y_diff * Math.cos(relative_rotation_angle);
+    let x = rotation_x + x_offset;
+    let y = rotation_y + y_offset;
+
+    key.x = fixPrecision(x);
+    key.y = fixPrecision(y);
+    key.rotation_angle = rotation_angle;
+    key.width = width;
+
     key.profile = kleKey.profile;
     key.switchType = kleKey.sm;
 
