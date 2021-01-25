@@ -12,7 +12,8 @@
     "prepublishOnly": "jest",
     "test": "jest",
     "build": "tsc",
-    "convert_examples": "ts-node scripts/convert.ts"
+    "convert": "ts-node scripts/convert_single.ts",
+    "convert_examples": "ts-node scripts/convert_examples.ts"
   },
   "repository": {
     "type": "git",
