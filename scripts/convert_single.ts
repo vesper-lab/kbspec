@@ -13,8 +13,8 @@ if (require.main === module) {
     if(process.argv.length != 3) {
         throw (process.argv.length - 2).toString() + " arguments were given, expected 1.";
     } 
-    
+
     let input_path = process.argv[2];
-    let output_path = input_path.replace(".json", ".converted.json");
+    let output_path = input_path.replace(".json", "_kbspec.json");
     convertFile(input_path, output_path);
 }
