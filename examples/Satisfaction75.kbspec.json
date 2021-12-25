@@ -1,9 +1,13 @@
 {
   "meta": {
-    "switchType": ""
+    "switchType": "",
+    "name": "CK75 - ANSI Standard"
   },
   "keys": [
     {
+      "x": 0.5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -13,13 +17,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 0.5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 2,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -29,13 +33,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 2,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -45,13 +49,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 3,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 4,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -61,13 +65,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 4,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -77,13 +81,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6.25,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -93,13 +97,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 6.25,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 7.25,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -109,13 +113,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 7.25,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 8.25,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -125,13 +129,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 8.25,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 9.25,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -141,13 +145,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 9.25,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10.5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -157,13 +161,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10.5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11.5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -173,13 +177,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11.5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 12.5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -189,13 +193,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 12.5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 13.5,
+      "y": -0.5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -205,45 +209,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 13.5,
-      "y": -0.5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
-      "labels": [
-        null,
-        null,
-        null,
-        null,
-        "OLED"
-      ],
-      "width": 1.5,
-      "height": 1,
-      "x": 15.25,
-      "y": -0.5,
+      "x": 0.5,
+      "y": -1.75,
       "rotation_angle": 0,
-      "profile": "",
-      "switchType": ""
-    },
-    {
-      "labels": [
-        "KNOB",
-        null,
-        null,
-        null,
-        "27"
-      ],
-      "width": 1,
-      "height": 1,
-      "x": 16,
-      "y": -1.5,
-      "rotation_angle": 0,
-      "profile": "",
-      "switchType": ""
-    },
-    {
       "labels": [
         null,
         null,
@@ -253,13 +225,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 0.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 1.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -269,13 +241,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 1.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 2.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -285,13 +257,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 2.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -301,13 +273,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 3.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 4.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -317,13 +289,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 4.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 5.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -333,13 +305,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 5.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -349,13 +321,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 6.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 7.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -365,13 +337,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 7.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 8.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -381,13 +353,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 8.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 9.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -397,13 +369,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 9.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -413,13 +385,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -429,13 +401,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 12.5,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -445,13 +417,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 12.5,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 14,
+      "y": -1.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -461,13 +433,13 @@
       ],
       "width": 2,
       "height": 1,
-      "x": 14,
-      "y": -1.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 0.75,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -477,13 +449,13 @@
       ],
       "width": 1.5,
       "height": 1,
-      "x": 0.75,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 2,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -493,13 +465,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 2,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -509,13 +481,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 3,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 4,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -525,13 +497,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 4,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 5,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -541,13 +513,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 5,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -557,13 +529,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 6,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 7,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -573,13 +545,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 7,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 8,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -589,13 +561,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 8,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 9,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -605,13 +577,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 9,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -621,13 +593,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -637,13 +609,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 12,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -653,13 +625,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 12,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 13,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -669,13 +641,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 13,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 14.25,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -685,13 +657,13 @@
       ],
       "width": 1.5,
       "height": 1,
-      "x": 14.25,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 16,
+      "y": -2.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -701,13 +673,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 16,
-      "y": -2.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 0.875,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -717,13 +689,13 @@
       ],
       "width": 1.75,
       "height": 1,
-      "x": 0.875,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 2.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -733,13 +705,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 2.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -749,13 +721,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 3.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 4.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -765,13 +737,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 4.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 5.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -781,13 +753,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 5.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -797,13 +769,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 6.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 7.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -813,13 +785,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 7.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 8.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -829,13 +801,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 8.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 9.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -845,13 +817,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 9.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -861,13 +833,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -877,13 +849,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 12.25,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -893,13 +865,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 12.25,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 13.875,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -909,13 +881,13 @@
       ],
       "width": 2.25,
       "height": 1,
-      "x": 13.875,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 16,
+      "y": -3.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -925,13 +897,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 16,
-      "y": -3.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 1.125,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -941,13 +913,13 @@
       ],
       "width": 2.25,
       "height": 1,
-      "x": 1.125,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 2.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -957,13 +929,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 2.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -973,13 +945,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 3.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 4.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -989,13 +961,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 4.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 5.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1005,13 +977,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 5.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1021,13 +993,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 6.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 7.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1037,13 +1009,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 7.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 8.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1053,13 +1025,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 8.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 9.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1069,13 +1041,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 9.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1085,13 +1057,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11.75,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1101,13 +1073,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11.75,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 13.125,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1117,13 +1089,13 @@
       ],
       "width": 1.75,
       "height": 1,
-      "x": 13.125,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 16,
+      "y": -4.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1133,13 +1105,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 16,
-      "y": -4.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 14.75,
+      "y": -5,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1149,13 +1121,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 14.75,
-      "y": -5,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 0.625,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1165,13 +1137,13 @@
       ],
       "width": 1.25,
       "height": 1,
-      "x": 0.625,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 1.875,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1181,13 +1153,13 @@
       ],
       "width": 1.25,
       "height": 1,
-      "x": 1.875,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 3.125,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1197,13 +1169,13 @@
       ],
       "width": 1.25,
       "height": 1,
-      "x": 3.125,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 6.875,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1213,13 +1185,13 @@
       ],
       "width": 6.25,
       "height": 1,
-      "x": 6.875,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 10.5,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1229,13 +1201,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 10.5,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 11.5,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1245,13 +1217,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 11.5,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 12.5,
+      "y": -5.75,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1261,13 +1233,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 12.5,
-      "y": -5.75,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 13.75,
+      "y": -6,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1277,13 +1249,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 13.75,
-      "y": -6,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 14.75,
+      "y": -6,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1293,13 +1265,13 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 14.75,
-      "y": -6,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
     },
     {
+      "x": 15.75,
+      "y": -6,
+      "rotation_angle": 0,
       "labels": [
         null,
         null,
@@ -1309,11 +1281,24 @@
       ],
       "width": 1,
       "height": 1,
-      "x": 15.75,
-      "y": -6,
-      "rotation_angle": 0,
       "profile": "",
       "switchType": ""
+    }
+  ],
+  "components": [
+    {
+      "x": 15.25,
+      "y": -0.5,
+      "rotation_angle": 0,
+      "componentType": "oled",
+      "oledType": "128x32"
+    },
+    {
+      "x": 16,
+      "y": -1.5,
+      "rotation_angle": 0,
+      "componentType": "encoder",
+      "radius": 1
     }
   ]
 }

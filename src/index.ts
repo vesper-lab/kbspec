@@ -1,27 +1,42 @@
 import * as kle from "./kleparser";
 import Decimal from "decimal.js";
 
-export class KBSpecKey {
+export class LayoutObject {
+  x: number = 0;
+  y: number = 0;
+  rotation_angle: number = 0;
+}
+
+export class KBSpecEncoder extends LayoutObject {
+  componentType: string = "encoder";
+  radius: number = 1;
+}
+
+export class KBSpecKey extends LayoutObject {
   labels: string[] = [];
 
   width: number = 1;
   height: number = 1;
 
-  x: number = 0;
-  y: number = 0;
-  rotation_angle: number = 0;
-
   profile: string = "";
   switchType: string = "";
 }
 
+export class KBSpecOLED extends LayoutObject {
+  componentType: string = "oled";
+  oledType: string = "128x32";
+}
+
 export class KBSpecMetadata {
   switchType: string = "";
+  name: string = "";
 }
 
 export class KBSpec {
+  
   meta: KBSpecMetadata = new KBSpecMetadata();
   keys: KBSpecKey[] = [];
+  components: LayoutObject[] = [];
 }
 
 export function createKBSpecFromKLE(layoutString: string): KBSpec{
@@ -29,10 +44,24 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
   let retval: KBSpec = new KBSpec();
 
   retval.meta.switchType = kleBoard.meta.switchMount;
+  retval.meta.name = kleBoard.meta.name;
 
   for (let kleKey of kleBoard.keys) {
-    let key = new KBSpecKey();
-    key.labels = [...kleKey.labels];
+
+    let componentType = "key"; 
+
+    for (let label of kleKey.labels) {
+      if (!label) {
+        continue
+      }
+      label = label.toLowerCase().trim();
+      if (["oled"].includes(label)) {
+        componentType = "oled";
+      }
+      if (["knob", "enc", "encoder"].includes(label)) {
+        componentType = "encoder";
+      }
+    }
     
     let rotation_x = new Decimal(kleKey.rotation_x);
     let rotation_y = new Decimal(-kleKey.rotation_y);
@@ -68,15 +97,45 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
 
     let key_orientation = Decimal.add(rotation_angle, angle_offset);
 
-    key.x = x.toNumber();
-    key.y = y.toNumber();
-    key.rotation_angle = key_orientation.toNumber();
-    key.width = width.toNumber();
 
-    key.profile = kleKey.profile;
-    key.switchType = kleKey.sm;
+    switch (componentType) {
+      case "key":
+        let key = new KBSpecKey();
+        key.labels = [...kleKey.labels];
 
-    retval.keys.push(key);
+        key.x = x.toNumber();
+        key.y = y.toNumber();
+        key.rotation_angle = key_orientation.toNumber();
+        key.width = width.toNumber();
+
+        key.profile = kleKey.profile;
+        key.switchType = kleKey.sm;
+
+        retval.keys.push(key);
+        break;
+
+      case "oled":
+        let oled = new KBSpecOLED();
+
+        oled.x = x.toNumber();
+        oled.y = y.toNumber();
+        oled.rotation_angle = key_orientation.toNumber();
+
+        retval.components.push(oled);
+        break;
+
+      case "encoder":
+        let encoder = new KBSpecEncoder();
+
+        encoder.x = x.toNumber();
+        encoder.y = y.toNumber();
+        encoder.rotation_angle = key_orientation.toNumber();
+
+        encoder.radius = Decimal.div(Decimal.add(width, height), 2).toNumber();
+
+        retval.components.push(encoder);
+        break;
+    }
   }
 
   return retval;
