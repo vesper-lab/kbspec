@@ -7,6 +7,11 @@ export class LayoutObject {
   rotation_angle: number = 0;
 }
 
+export class KBSpecController extends LayoutObject {
+  componentType: string = "controller";
+  controllerType: string = "pro micro";
+}
+
 export class KBSpecEncoder extends LayoutObject {
   componentType: string = "encoder";
   radius: number = 1;
@@ -55,11 +60,15 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
         continue
       }
       label = label.toLowerCase().trim();
+      label = label.replace(" ", "").replace("-", "");
       if (["oled"].includes(label)) {
         componentType = "oled";
       }
       if (["knob", "enc", "encoder"].includes(label)) {
         componentType = "encoder";
+      }
+      if (["promicro", "elitec", "controller"].includes(label)) {
+        componentType = "controller";
       }
     }
     
@@ -134,6 +143,16 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
         encoder.radius = Decimal.div(Decimal.add(width, height), 2).toNumber();
 
         retval.components.push(encoder);
+        break;
+
+      case "controller":
+        let controller = new KBSpecController();
+
+        controller.x = x.toNumber();
+        controller.y = y.toNumber();
+        controller.rotation_angle = key_orientation.toNumber();
+
+        retval.components.push(controller);
         break;
     }
   }
