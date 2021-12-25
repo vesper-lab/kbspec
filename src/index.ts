@@ -140,7 +140,8 @@ export function createKBSpecFromKLE(layoutString: string): KBSpec{
         encoder.y = y.toNumber();
         encoder.rotation_angle = key_orientation.toNumber();
 
-        encoder.radius = Decimal.div(Decimal.add(width, height), 2).toNumber();
+        // Divide by 2 for average, then 2 for diameter to radius
+        encoder.radius = Decimal.div(Decimal.add(width, height), 4).toNumber();
 
         retval.components.push(encoder);
         break;

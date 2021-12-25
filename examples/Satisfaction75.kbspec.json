@@ -1298,7 +1298,7 @@
       "y": -1.5,
       "rotation_angle": 0,
       "componentType": "encoder",
-      "radius": 1
+      "radius": 0.5
     }
   ]
 }
